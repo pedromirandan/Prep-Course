@@ -295,7 +295,10 @@ function esVocal(letra){
     return resultado = "Es vocal";
   }
     else {
-      if (letra.length > 1) OR (resultado = false); {
+      if (letra.length > 1) {
+        return resultado = "Dato incorrecto";
+      }
+      if (resultado === false) {
         return resultado = "Dato incorrecto";
       }
     }
