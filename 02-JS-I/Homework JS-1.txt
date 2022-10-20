@@ -1,0 +1,14 @@
+Variables: Las variables son espacios o "slots" creados por nosotros para almacenar información,
+estos espacios no tienen información fija y puede ser cambiada.
+
+Strings: Son cadenas de caracteres, o dicho mucho mas simple, palabras, texto, esto mismo que estás leyendo.
+
+Funciones: Son pequeñas maquinitas a las que vos le ingresas unos datos y te largan un resultado, los datos
+ingresados se les llama argumentos y la función te devuelve un resultado a traves del "return".
+
+Declaraciones if: Es como tomar decisiones, vos tenés un dato de entrada, el cuál el procesado por "el if"
+y en base al proceso, que puede tomar varios caminos distintos, te ofrece un resultado, o otro.
+
+Valores booleanos: Para explicarlo de manera simple, son dos valores, verdadero o falso, encendido o
+apagado, verde o rojo en un semaforo, 0 o 1 en código binario, es una forma de representar que algo
+está encendido o apagado, en programación se estila decirle true or false.

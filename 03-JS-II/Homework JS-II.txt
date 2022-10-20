@@ -1,0 +1,19 @@
+Bucle for: Es una forma de repetir un mismo código muchas veces sin tener que escribirlo repetidamente. Esto se realiza
+mediante una variable de control, la cuál va incrementando de 1 en 1 con cada iteración del bucle. Cuando la condición
+de control se haga falsa, entonces la ejecución del bucle for se detendrá y se seguirá ejecutando el código inmediatamente
+sucesivo al bucle for.
+
+&&, ||, !:
+
+Estos tres símbolos corresponden a los operadores lógicos, siendo estos Y (AND); O (OR); NO (NOT), respectivamente.
+
+El operador Y evalúa que ambas condiciones a su izquierda y derecha devuelvan true, en el caso de que ambas lo hagan, este
+operador devolverá true, en cualquier otro caso (T-F, F-T, F-F), devolverá false.
+
+El operador O evalúe que alguna de las dos condiciones a su izquierda y derecha, o ambas, sean verdaderas. En estos tres
+casos el operador devuelve true, en el cuarto y último caso (F-F), el operador devuelve false.
+
+El operador NO invierte el valor booleano de lo que sea que tenga al lado, en el caso de que el operador tenga una expresión
+que da como valor booleano true, el valor final será false (!true). En el caso de que la expresión sea false, el valor final
+será true (!false). Si se aplica el operador NO dos veces, se vuelve al estado inicial del objeto al que fue aplicado, ej:
+!!true === true.
