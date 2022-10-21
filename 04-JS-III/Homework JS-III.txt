@@ -1,0 +1,10 @@
+Arrays: Los arrays son básicamente listas, como cuando armás una lista del supermercado, estas listas no tienen que tener un
+solo tipo de objetos, como por ejemplo, verduras, no; pueden tener varios tipos de objetos, ya sean verduras, carne, produc-
+tos de limpieza, etc. Ya entendiste el punto. En JS esto se traduce a que puede tener varios tipos de datos en simuláneo,
+ya que no son tipadas.
+A su vez, las objetos dentro de los arrays tienen un número de índice asociados a ellos. Con este numero de índice puedes
+llamarlos y hacer lo que quieras con ellos. También, gracias a otras propiedades de los arrays, puedes medir la cantidad de
+elementos, como también puedes agregar o quitar objetos de el frente y el final de la lista, según lo desees.
+Dentro de los arrays podés tener otros arrays, lo que en nuestro ejemplo sería tener la lista de las verduras dentro de la
+lista general del supermercado. A esta otro "sub-lista" también se la puede acceder mediante los índices mencionados ante-
+riormente.
