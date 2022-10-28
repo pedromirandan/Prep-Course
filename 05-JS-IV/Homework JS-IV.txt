@@ -1,0 +1,19 @@
+Objetos: Los objetos en Javascript son los ladrillos de todo, JS está basado en objetos, así que casi todo se podría
+"definir" como un objeto. Los objetos son definidos por el programador, y tienen un nombre, como también tienen asociados
+propiedades, las cuales pueden ser llamadas mediante keys o llaves. Tanto el nombre del objeto, como las propiedades y los
+"keys" son definidos por el programador.
+
+Propiedades: Como lo mencioné anteriormente, son los "atributos" con los que cuentan los objetos, y estas pueden ser cual-
+quier tipo de dato en JS, incluso otro objeto.
+
+Métodos: En JS, se les llama métodos a las funciones definidas como propiedades de un objeto, un ejemplo de un método sería
+el anteriormente usado método objeto.length.
+
+Bucle for...in: El bucle for in es un tipo de bucle for especial que te permite ir transitando una por una todas las propie-
+dades de un objeto, pudiendo así evaluarlas o hacer cualquier cosa que desees con ellas.
+
+Notacíon de puntos vs Notación de corchetes: Cuando se quiere llamar a una propiedad de un objeto se puede usar cualquiera de
+estas dos notaciones, siendo la notación de corchetes la universal, y la de puntos la versión más simplificada y más usada.
+La notación de puntos es literal, así que si quisieras llamar a una propiedad mediante una variable no deberías usar esta
+notación, ya que no interpretara la variable como "la variable que tiene dentro esa propiedad", sino que la tomará literal-
+mente por su nombre, tratándola como si fuese una propiedad del objeto, y no una variable.
