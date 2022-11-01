@@ -1,0 +1,15 @@
+prototype: El protoype o prototipo en JavaScript es como un marco referencial que tienen todos los objetos, todo en javascript
+puede ser pensado como un objeto, es más, puede ser pensando como un objeto que está dentro de otro objeto más grande a si mismo.
+Este objeto más grande en el que están incluidos todos los objetos es a lo que me refiero con "marco referencial".
+Por ejemplo, los objetos "rojo", "verde" y "azul", podrían decirse que están dentro del marco de los "colores primarios", por
+lo cuál, el protoype de los objetos "rojo", "verde" y "azul" es "colores primarios". Así mismo, los colores primarios tienen
+su propio prototype o marco referencial, el cuál sería los "colores" representando a los colores primarios, secundarios, etc.
+Un objeto puede buscar propiedades que estén en su prototipo, así mismo, si hay un método dentro del prototipo de los colores
+primarios (Colores), estos podrán usar ese método. De esta forma, invocando los métodos que estén en el prototipo del objeto,
+se evita repetir código inncesario.
+
+Constructors (de Clases): Los constructores de clases son plantillas para la creación de objetos que comparten las mismas propiedades,
+se podrían pensar como una fábrica, que produce muchos objetos similares. Por ejemplo, un constructor de la clase "Auto", sería
+una función que crea muchos objetos "auto" con las mismas propiedades. Es decir, todos los autos tienen una marca, un color y un tipo,
+por lo cuál esta función puede crear autos en torno a esos parametros. Si bien el valor interno  de las propiedades puede diferir, la
+propiedad en sí es la misma para todos los objetos de esa clase.
