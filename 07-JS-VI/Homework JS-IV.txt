@@ -1,0 +1,7 @@
+Funciones Callback: Las funciones callback, son funciones que se llaman dentro de otra funcion. Una función que es pasada
+como parametro es llamada "callback". Esto es análogo a como las funciones que están dentro de un objeto son llamadas
+métodos. Las funciones callbacks requieren de argumentos para funcionar, estos argumentos son pasados como otros argumentos
+dentro de la función en la que está el callback. En el caso de alguns de las propiedades de los arrays, los argumentos que
+utilizará el callback están dentro de si misma, pero también hay algunos elementos que son externos al callback, como por
+ejemplo el valor inicial de el acumulador, en la propiedad .reduce de los arrays. En simples palabras, las funciones call-
+back son las funciones que son llamadas dentro de otra función, como parte de sus parametros.
